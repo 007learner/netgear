@@ -1,0 +1,198 @@
+Package: dns2socks
+Version: 2.1-2
+Depends: libc, libpthread
+Source: feeds/PWpackages/dns2socks
+SourceName: dns2socks
+License: BSD-3-Clause
+Section: net
+SourceDateEpoch: 1667317868
+Maintainer: ghostmaker
+Architecture: mipsel_24kc
+Installed-Size: 10850
+Filename: dns2socks_2.1-2_mipsel_24kc.ipk
+Size: 11626
+SHA256sum: 38e85166f0655dfa6050da1c9501c25475907cc402c04a2d498687cc8c313033
+Description:  This is a command line utility to resolve DNS requests via
+ a SOCKS tunnel like Tor or a HTTP proxy.
+
+Package: dns2tcp
+Version: 1.1.0-1
+Depends: libc
+Source: feeds/PWpackages/dns2tcp
+SourceName: dns2tcp
+License: AGPL-3.0-only
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1667317868
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: mipsel_24kc
+Installed-Size: 12510
+Filename: dns2tcp_1.1.0-1_mipsel_24kc.ipk
+Size: 13288
+SHA256sum: 4f7fd5a3eb64e7df487225e1e9cacfbfaa4456a8cbc1835f5d6f13fee9494fd2
+Description:  utility to convert dns query from udp to tcp
+
+Package: microsocks
+Version: 1.0.3-1
+Depends: libc, libpthread
+Source: feeds/PWpackages/microsocks
+SourceName: microsocks
+License: MIT
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1667317868
+Maintainer: lean
+Architecture: mipsel_24kc
+Installed-Size: 4808
+Filename: microsocks_1.0.3-1_mipsel_24kc.ipk
+Size: 5591
+SHA256sum: c9d50d70c5b894e0674ea10ea502d5e3af1f1ce628f5c031ecc7c5a4c233c30f
+Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
+ through them, if for some reason SSH doesn't cut it for you.
+
+Package: shadowsocksr-libev-ssr-check
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+Source: feeds/PWpackages/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-check
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1667317868
+Architecture: mipsel_24kc
+Installed-Size: 2415
+Filename: shadowsocksr-libev-ssr-check_2.5.6-9_mipsel_24kc.ipk
+Size: 3139
+SHA256sum: e9c8b99730f425ddf627e07c495ad2ceea1912285116c69730849d42343d69cd
+Description:  shadowsocksr-libev ssr-check
+
+Package: shadowsocksr-libev-ssr-local
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+Source: feeds/PWpackages/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-local
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1667317868
+Architecture: mipsel_24kc
+Installed-Size: 57604
+Filename: shadowsocksr-libev-ssr-local_2.5.6-9_mipsel_24kc.ipk
+Size: 58308
+SHA256sum: 9ce4475248ead1dd861061cd78fe500b75caf766fc6a84cf1550151f05f73009
+Description:  shadowsocksr-libev ssr-local
+
+Package: shadowsocksr-libev-ssr-nat
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+Source: feeds/PWpackages/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-nat
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1667317868
+Architecture: mipsel_24kc
+Installed-Size: 2228
+Filename: shadowsocksr-libev-ssr-nat_2.5.6-9_mipsel_24kc.ipk
+Size: 2983
+SHA256sum: 42e257fa66c032d706c0c95e217a7fcf9e0ac2ebeca24f985c066e992a5255f5
+Description:  shadowsocksr-libev ssr-nat
+
+Package: shadowsocksr-libev-ssr-redir
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+Source: feeds/PWpackages/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-redir
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1667317868
+Architecture: mipsel_24kc
+Installed-Size: 51956
+Filename: shadowsocksr-libev-ssr-redir_2.5.6-9_mipsel_24kc.ipk
+Size: 52358
+SHA256sum: 8605298d52306c4346cc376ad93dac5a4edcc2941f86cccc15fcd4be786cfe09
+Description:  shadowsocksr-libev ssr-redir
+
+Package: shadowsocksr-libev-ssr-server
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+Source: feeds/PWpackages/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-server
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1667317868
+Architecture: mipsel_24kc
+Installed-Size: 60530
+Filename: shadowsocksr-libev-ssr-server_2.5.6-9_mipsel_24kc.ipk
+Size: 61250
+SHA256sum: 0a501f36aacb1b1f37358247e12877bf7fe11826117e3cf18cc68d6b6fd1f9b9
+Description:  shadowsocksr-libev ssr-server
+
+Package: simple-obfs-server
+Version: 0.0.5-1
+Depends: libc, libpthread, libev
+Source: feeds/PWpackages/simple-obfs
+SourceName: simple-obfs-server
+License: GPL-3.0-or-later
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1667317868
+Maintainer: Jian Chang <aa65535@live.com>
+Architecture: mipsel_24kc
+Installed-Size: 29840
+Filename: simple-obfs-server_0.0.5-1_mipsel_24kc.ipk
+Size: 30636
+SHA256sum: a1ed3cc316999830e36a4e13e729d9b21ba24c982b8181430548bb84e9832fd8
+Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
+
+Package: simple-obfs
+Version: 0.0.5-1
+Depends: libc, libpthread, libev
+Source: feeds/PWpackages/simple-obfs
+SourceName: simple-obfs
+License: GPL-3.0-or-later
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1667317868
+Maintainer: Jian Chang <aa65535@live.com>
+Architecture: mipsel_24kc
+Installed-Size: 27982
+Filename: simple-obfs_0.0.5-1_mipsel_24kc.ipk
+Size: 28737
+SHA256sum: 76b7102221cb1ddf4c42df7febbf1329e5421b72072295f6e172c679cb32ef10
+Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
+
+Package: tcping
+Version: 0.3-1
+Depends: libc
+Source: feeds/PWpackages/tcping
+SourceName: tcping
+License: GPL-2.0-only
+LicenseFiles: license.txt
+Section: net
+SourceDateEpoch: 1667317868
+Architecture: mipsel_24kc
+Installed-Size: 3896
+Filename: tcping_0.3-1_mipsel_24kc.ipk
+Size: 4594
+SHA256sum: 794d4d87d8f18c5a1bd91c550e04da38b9dceec9f8749796127cf1694550c111
+Description:  tcping measures the latency of a tcp-connection
+
+Package: trojan-plus
+Version: 10.0.3-2
+Depends: libc, libpthread, libstdcpp6, libopenssl1.1, boost, boost-system, boost-program_options
+Source: feeds/PWpackages/trojan-plus
+SourceName: trojan-plus
+License: GPL-3.0
+Section: net
+SourceDateEpoch: 1667317868
+Maintainer: Trojan-Plus-Group
+Architecture: mipsel_24kc
+Installed-Size: 398524
+Filename: trojan-plus_10.0.3-2_mipsel_24kc.ipk
+Size: 399338
+SHA256sum: e676780094ca14a0304b68676df509ab5c9beca4afe53f2e76c7dc0bf115ba8e
+Description:  An unidentifiable mechanism that helps you bypass GFW. It's compatible with original trojan with experimental features.
+
